@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC5BE2661CBAFD3000386A43 /* FLAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1DB1CBAFD3000386A43 /* FLAC.framework */; };
+		DC5BE2671CBAFD3000386A43 /* freetype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1DC1CBAFD3000386A43 /* freetype.framework */; };
+		DC5BE2681CBAFD3000386A43 /* ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1DD1CBAFD3000386A43 /* ogg.framework */; };
+		DC5BE2691CBAFD3000386A43 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1DE1CBAFD3000386A43 /* OpenAL.framework */; };
+		DC5BE26A1CBAFD3000386A43 /* vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1DF1CBAFD3000386A43 /* vorbis.framework */; };
+		DC5BE26B1CBAFD3000386A43 /* vorbisenc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1E01CBAFD3000386A43 /* vorbisenc.framework */; };
+		DC5BE26C1CBAFD3000386A43 /* vorbisfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1E11CBAFD3000386A43 /* vorbisfile.framework */; };
+		DC5BE26D1CBAFD3000386A43 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1E31CBAFD3000386A43 /* sfml-audio.framework */; };
+		DC5BE26E1CBAFD3000386A43 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1E41CBAFD3000386A43 /* sfml-graphics.framework */; };
+		DC5BE26F1CBAFD3000386A43 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1E51CBAFD3000386A43 /* sfml-network.framework */; };
+		DC5BE2701CBAFD3000386A43 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1E61CBAFD3000386A43 /* sfml-system.framework */; };
+		DC5BE2711CBAFD3000386A43 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1E71CBAFD3000386A43 /* sfml-window.framework */; };
+		DC5BE2721CBAFD3000386A43 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE1E81CBAFD3000386A43 /* SFML.framework */; };
+		DC5BE2731CBAFD3000386A43 /* libsfml-audio.2.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2551CBAFD3000386A43 /* libsfml-audio.2.3.2.dylib */; };
+		DC5BE2741CBAFD3000386A43 /* libsfml-audio.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2561CBAFD3000386A43 /* libsfml-audio.2.3.dylib */; };
+		DC5BE2751CBAFD3000386A43 /* libsfml-audio.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2571CBAFD3000386A43 /* libsfml-audio.dylib */; };
+		DC5BE2761CBAFD3000386A43 /* libsfml-graphics.2.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2581CBAFD3000386A43 /* libsfml-graphics.2.3.2.dylib */; };
+		DC5BE2771CBAFD3000386A43 /* libsfml-graphics.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2591CBAFD3000386A43 /* libsfml-graphics.2.3.dylib */; };
+		DC5BE2781CBAFD3000386A43 /* libsfml-graphics.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE25A1CBAFD3000386A43 /* libsfml-graphics.dylib */; };
+		DC5BE2791CBAFD3000386A43 /* libsfml-network.2.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE25B1CBAFD3000386A43 /* libsfml-network.2.3.2.dylib */; };
+		DC5BE27A1CBAFD3000386A43 /* libsfml-network.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE25C1CBAFD3000386A43 /* libsfml-network.2.3.dylib */; };
+		DC5BE27B1CBAFD3000386A43 /* libsfml-network.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE25D1CBAFD3000386A43 /* libsfml-network.dylib */; };
+		DC5BE27C1CBAFD3000386A43 /* libsfml-system.2.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE25E1CBAFD3000386A43 /* libsfml-system.2.3.2.dylib */; };
+		DC5BE27D1CBAFD3000386A43 /* libsfml-system.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE25F1CBAFD3000386A43 /* libsfml-system.2.3.dylib */; };
+		DC5BE27E1CBAFD3000386A43 /* libsfml-system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2601CBAFD3000386A43 /* libsfml-system.dylib */; };
+		DC5BE27F1CBAFD3000386A43 /* libsfml-window.2.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2611CBAFD3000386A43 /* libsfml-window.2.3.2.dylib */; };
+		DC5BE2801CBAFD3000386A43 /* libsfml-window.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2621CBAFD3000386A43 /* libsfml-window.2.3.dylib */; };
+		DC5BE2811CBAFD3000386A43 /* libsfml-window.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2631CBAFD3000386A43 /* libsfml-window.dylib */; };
+		DC5BE2991CBB199800386A43 /* FLAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE28C1CBB199800386A43 /* FLAC.framework */; };
+		DC5BE29A1CBB199800386A43 /* freetype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE28D1CBB199800386A43 /* freetype.framework */; };
+		DC5BE29B1CBB199800386A43 /* ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE28E1CBB199800386A43 /* ogg.framework */; };
+		DC5BE29C1CBB199800386A43 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE28F1CBB199800386A43 /* OpenAL.framework */; };
+		DC5BE29D1CBB199800386A43 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2901CBB199800386A43 /* sfml-audio.framework */; };
+		DC5BE29E1CBB199800386A43 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2911CBB199800386A43 /* sfml-graphics.framework */; };
+		DC5BE29F1CBB199800386A43 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2921CBB199800386A43 /* sfml-network.framework */; };
+		DC5BE2A01CBB199800386A43 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2931CBB199800386A43 /* sfml-system.framework */; };
+		DC5BE2A11CBB199800386A43 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2941CBB199800386A43 /* sfml-window.framework */; };
+		DC5BE2A21CBB199800386A43 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2951CBB199800386A43 /* SFML.framework */; };
+		DC5BE2A31CBB199800386A43 /* vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2961CBB199800386A43 /* vorbis.framework */; };
+		DC5BE2A41CBB199800386A43 /* vorbisenc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2971CBB199800386A43 /* vorbisenc.framework */; };
+		DC5BE2A51CBB199800386A43 /* vorbisfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5BE2981CBB199800386A43 /* vorbisfile.framework */; };
+		DCDD50FD1CD196EE00619F91 /* Carnivores.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCDD50E91CD196EE00619F91 /* Carnivores.cpp */; };
+		DCDD50FE1CD196EE00619F91 /* Grass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCDD50EC1CD196EE00619F91 /* Grass.cpp */; };
+		DCDD50FF1CD196EE00619F91 /* Herbivores.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCDD50EE1CD196EE00619F91 /* Herbivores.cpp */; };
+		DCDD51001CD196EE00619F91 /* Land.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCDD50F01CD196EE00619F91 /* Land.cpp */; };
+		DCDD51011CD196EE00619F91 /* Living.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCDD50F21CD196EE00619F91 /* Living.cpp */; };
+		DCDD51021CD196EE00619F91 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCDD50F41CD196EE00619F91 /* main.cpp */; };
+		DCDD51031CD196EE00619F91 /* Plants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCDD50F51CD196EE00619F91 /* Plants.cpp */; };
+		DCDD51041CD196EE00619F91 /* Rabbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCDD50F71CD196EE00619F91 /* Rabbit.cpp */; };
+		DCDD51051CD196EE00619F91 /* SquareYard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCDD50F91CD196EE00619F91 /* SquareYard.cpp */; };
+		DCDD51061CD196EE00619F91 /* Wolf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCDD50FB1CD196EE00619F91 /* Wolf.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC5BE1C41CBAFC0900386A43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC5BE1C61CBAFC0900386A43 /* proj3_oole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = proj3_oole; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5BE1D91CBAFD3000386A43 /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog.txt; sourceTree = "<group>"; };
+		DC5BE1DB1CBAFD3000386A43 /* FLAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FLAC.framework; sourceTree = "<group>"; };
+		DC5BE1DC1CBAFD3000386A43 /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = freetype.framework; sourceTree = "<group>"; };
+		DC5BE1DD1CBAFD3000386A43 /* ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ogg.framework; sourceTree = "<group>"; };
+		DC5BE1DE1CBAFD3000386A43 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenAL.framework; sourceTree = "<group>"; };
+		DC5BE1DF1CBAFD3000386A43 /* vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vorbis.framework; sourceTree = "<group>"; };
+		DC5BE1E01CBAFD3000386A43 /* vorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vorbisenc.framework; sourceTree = "<group>"; };
+		DC5BE1E11CBAFD3000386A43 /* vorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vorbisfile.framework; sourceTree = "<group>"; };
+		DC5BE1E31CBAFD3000386A43 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-audio.framework"; sourceTree = "<group>"; };
+		DC5BE1E41CBAFD3000386A43 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-graphics.framework"; sourceTree = "<group>"; };
+		DC5BE1E51CBAFD3000386A43 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-network.framework"; sourceTree = "<group>"; };
+		DC5BE1E61CBAFD3000386A43 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-system.framework"; sourceTree = "<group>"; };
+		DC5BE1E71CBAFD3000386A43 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-window.framework"; sourceTree = "<group>"; };
+		DC5BE1E81CBAFD3000386A43 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SFML.framework; sourceTree = "<group>"; };
+		DC5BE1EC1CBAFD3000386A43 /* AlResource.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AlResource.hpp; sourceTree = "<group>"; };
+		DC5BE1ED1CBAFD3000386A43 /* Export.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Export.hpp; sourceTree = "<group>"; };
+		DC5BE1EE1CBAFD3000386A43 /* InputSoundFile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InputSoundFile.hpp; sourceTree = "<group>"; };
+		DC5BE1EF1CBAFD3000386A43 /* Listener.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Listener.hpp; sourceTree = "<group>"; };
+		DC5BE1F01CBAFD3000386A43 /* Music.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
+		DC5BE1F11CBAFD3000386A43 /* OutputSoundFile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OutputSoundFile.hpp; sourceTree = "<group>"; };
+		DC5BE1F21CBAFD3000386A43 /* Sound.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sound.hpp; sourceTree = "<group>"; };
+		DC5BE1F31CBAFD3000386A43 /* SoundBuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundBuffer.hpp; sourceTree = "<group>"; };
+		DC5BE1F41CBAFD3000386A43 /* SoundBufferRecorder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundBufferRecorder.hpp; sourceTree = "<group>"; };
+		DC5BE1F51CBAFD3000386A43 /* SoundFileFactory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundFileFactory.hpp; sourceTree = "<group>"; };
+		DC5BE1F61CBAFD3000386A43 /* SoundFileFactory.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SoundFileFactory.inl; sourceTree = "<group>"; };
+		DC5BE1F71CBAFD3000386A43 /* SoundFileReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundFileReader.hpp; sourceTree = "<group>"; };
+		DC5BE1F81CBAFD3000386A43 /* SoundFileWriter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundFileWriter.hpp; sourceTree = "<group>"; };
+		DC5BE1F91CBAFD3000386A43 /* SoundRecorder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundRecorder.hpp; sourceTree = "<group>"; };
+		DC5BE1FA1CBAFD3000386A43 /* SoundSource.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundSource.hpp; sourceTree = "<group>"; };
+		DC5BE1FB1CBAFD3000386A43 /* SoundStream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SoundStream.hpp; sourceTree = "<group>"; };
+		DC5BE1FC1CBAFD3000386A43 /* Audio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Audio.hpp; sourceTree = "<group>"; };
+		DC5BE1FD1CBAFD3000386A43 /* Config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Config.hpp; sourceTree = "<group>"; };
+		DC5BE1FF1CBAFD3000386A43 /* BlendMode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BlendMode.hpp; sourceTree = "<group>"; };
+		DC5BE2001CBAFD3000386A43 /* CircleShape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CircleShape.hpp; sourceTree = "<group>"; };
+		DC5BE2011CBAFD3000386A43 /* Color.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Color.hpp; sourceTree = "<group>"; };
+		DC5BE2021CBAFD3000386A43 /* ConvexShape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConvexShape.hpp; sourceTree = "<group>"; };
+		DC5BE2031CBAFD3000386A43 /* Drawable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Drawable.hpp; sourceTree = "<group>"; };
+		DC5BE2041CBAFD3000386A43 /* Export.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Export.hpp; sourceTree = "<group>"; };
+		DC5BE2051CBAFD3000386A43 /* Font.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Font.hpp; sourceTree = "<group>"; };
+		DC5BE2061CBAFD3000386A43 /* Glyph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Glyph.hpp; sourceTree = "<group>"; };
+		DC5BE2071CBAFD3000386A43 /* Image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Image.hpp; sourceTree = "<group>"; };
+		DC5BE2081CBAFD3000386A43 /* PrimitiveType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PrimitiveType.hpp; sourceTree = "<group>"; };
+		DC5BE2091CBAFD3000386A43 /* Rect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Rect.hpp; sourceTree = "<group>"; };
+		DC5BE20A1CBAFD3000386A43 /* Rect.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rect.inl; sourceTree = "<group>"; };
+		DC5BE20B1CBAFD3000386A43 /* RectangleShape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RectangleShape.hpp; sourceTree = "<group>"; };
+		DC5BE20C1CBAFD3000386A43 /* RenderStates.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RenderStates.hpp; sourceTree = "<group>"; };
+		DC5BE20D1CBAFD3000386A43 /* RenderTarget.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RenderTarget.hpp; sourceTree = "<group>"; };
+		DC5BE20E1CBAFD3000386A43 /* RenderTexture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RenderTexture.hpp; sourceTree = "<group>"; };
+		DC5BE20F1CBAFD3000386A43 /* RenderWindow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RenderWindow.hpp; sourceTree = "<group>"; };
+		DC5BE2101CBAFD3000386A43 /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		DC5BE2111CBAFD3000386A43 /* Shape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shape.hpp; sourceTree = "<group>"; };
+		DC5BE2121CBAFD3000386A43 /* Sprite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sprite.hpp; sourceTree = "<group>"; };
+		DC5BE2131CBAFD3000386A43 /* Text.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Text.hpp; sourceTree = "<group>"; };
+		DC5BE2141CBAFD3000386A43 /* Texture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Texture.hpp; sourceTree = "<group>"; };
+		DC5BE2151CBAFD3000386A43 /* Transform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Transform.hpp; sourceTree = "<group>"; };
+		DC5BE2161CBAFD3000386A43 /* Transformable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Transformable.hpp; sourceTree = "<group>"; };
+		DC5BE2171CBAFD3000386A43 /* Vertex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vertex.hpp; sourceTree = "<group>"; };
+		DC5BE2181CBAFD3000386A43 /* VertexArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VertexArray.hpp; sourceTree = "<group>"; };
+		DC5BE2191CBAFD3000386A43 /* View.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = View.hpp; sourceTree = "<group>"; };
+		DC5BE21A1CBAFD3000386A43 /* Graphics.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Graphics.hpp; sourceTree = "<group>"; };
+		DC5BE21B1CBAFD3000386A43 /* Main.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Main.hpp; sourceTree = "<group>"; };
+		DC5BE21D1CBAFD3000386A43 /* Export.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Export.hpp; sourceTree = "<group>"; };
+		DC5BE21E1CBAFD3000386A43 /* Ftp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ftp.hpp; sourceTree = "<group>"; };
+		DC5BE21F1CBAFD3000386A43 /* Http.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Http.hpp; sourceTree = "<group>"; };
+		DC5BE2201CBAFD3000386A43 /* IpAddress.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IpAddress.hpp; sourceTree = "<group>"; };
+		DC5BE2211CBAFD3000386A43 /* Packet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Packet.hpp; sourceTree = "<group>"; };
+		DC5BE2221CBAFD3000386A43 /* Socket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Socket.hpp; sourceTree = "<group>"; };
+		DC5BE2231CBAFD3000386A43 /* SocketHandle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SocketHandle.hpp; sourceTree = "<group>"; };
+		DC5BE2241CBAFD3000386A43 /* SocketSelector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SocketSelector.hpp; sourceTree = "<group>"; };
+		DC5BE2251CBAFD3000386A43 /* TcpListener.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TcpListener.hpp; sourceTree = "<group>"; };
+		DC5BE2261CBAFD3000386A43 /* TcpSocket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TcpSocket.hpp; sourceTree = "<group>"; };
+		DC5BE2271CBAFD3000386A43 /* UdpSocket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UdpSocket.hpp; sourceTree = "<group>"; };
+		DC5BE2281CBAFD3000386A43 /* Network.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Network.hpp; sourceTree = "<group>"; };
+		DC5BE2291CBAFD3000386A43 /* OpenGL.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OpenGL.hpp; sourceTree = "<group>"; };
+		DC5BE22B1CBAFD3000386A43 /* Clock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Clock.hpp; sourceTree = "<group>"; };
+		DC5BE22C1CBAFD3000386A43 /* Err.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Err.hpp; sourceTree = "<group>"; };
+		DC5BE22D1CBAFD3000386A43 /* Export.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Export.hpp; sourceTree = "<group>"; };
+		DC5BE22E1CBAFD3000386A43 /* FileInputStream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileInputStream.hpp; sourceTree = "<group>"; };
+		DC5BE22F1CBAFD3000386A43 /* InputStream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InputStream.hpp; sourceTree = "<group>"; };
+		DC5BE2301CBAFD3000386A43 /* Lock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Lock.hpp; sourceTree = "<group>"; };
+		DC5BE2311CBAFD3000386A43 /* MemoryInputStream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MemoryInputStream.hpp; sourceTree = "<group>"; };
+		DC5BE2321CBAFD3000386A43 /* Mutex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mutex.hpp; sourceTree = "<group>"; };
+		DC5BE2331CBAFD3000386A43 /* NonCopyable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NonCopyable.hpp; sourceTree = "<group>"; };
+		DC5BE2341CBAFD3000386A43 /* Sleep.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sleep.hpp; sourceTree = "<group>"; };
+		DC5BE2351CBAFD3000386A43 /* String.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = String.hpp; sourceTree = "<group>"; };
+		DC5BE2361CBAFD3000386A43 /* String.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = String.inl; sourceTree = "<group>"; };
+		DC5BE2371CBAFD3000386A43 /* Thread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Thread.hpp; sourceTree = "<group>"; };
+		DC5BE2381CBAFD3000386A43 /* Thread.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Thread.inl; sourceTree = "<group>"; };
+		DC5BE2391CBAFD3000386A43 /* ThreadLocal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ThreadLocal.hpp; sourceTree = "<group>"; };
+		DC5BE23A1CBAFD3000386A43 /* ThreadLocalPtr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ThreadLocalPtr.hpp; sourceTree = "<group>"; };
+		DC5BE23B1CBAFD3000386A43 /* ThreadLocalPtr.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThreadLocalPtr.inl; sourceTree = "<group>"; };
+		DC5BE23C1CBAFD3000386A43 /* Time.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Time.hpp; sourceTree = "<group>"; };
+		DC5BE23D1CBAFD3000386A43 /* Utf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Utf.hpp; sourceTree = "<group>"; };
+		DC5BE23E1CBAFD3000386A43 /* Utf.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Utf.inl; sourceTree = "<group>"; };
+		DC5BE23F1CBAFD3000386A43 /* Vector2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector2.hpp; sourceTree = "<group>"; };
+		DC5BE2401CBAFD3000386A43 /* Vector2.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vector2.inl; sourceTree = "<group>"; };
+		DC5BE2411CBAFD3000386A43 /* Vector3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector3.hpp; sourceTree = "<group>"; };
+		DC5BE2421CBAFD3000386A43 /* Vector3.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vector3.inl; sourceTree = "<group>"; };
+		DC5BE2431CBAFD3000386A43 /* System.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = System.hpp; sourceTree = "<group>"; };
+		DC5BE2451CBAFD3000386A43 /* Context.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Context.hpp; sourceTree = "<group>"; };
+		DC5BE2461CBAFD3000386A43 /* ContextSettings.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ContextSettings.hpp; sourceTree = "<group>"; };
+		DC5BE2471CBAFD3000386A43 /* Event.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Event.hpp; sourceTree = "<group>"; };
+		DC5BE2481CBAFD3000386A43 /* Export.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Export.hpp; sourceTree = "<group>"; };
+		DC5BE2491CBAFD3000386A43 /* GlResource.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GlResource.hpp; sourceTree = "<group>"; };
+		DC5BE24A1CBAFD3000386A43 /* Joystick.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Joystick.hpp; sourceTree = "<group>"; };
+		DC5BE24B1CBAFD3000386A43 /* Keyboard.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Keyboard.hpp; sourceTree = "<group>"; };
+		DC5BE24C1CBAFD3000386A43 /* Mouse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mouse.hpp; sourceTree = "<group>"; };
+		DC5BE24D1CBAFD3000386A43 /* Sensor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sensor.hpp; sourceTree = "<group>"; };
+		DC5BE24E1CBAFD3000386A43 /* Touch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Touch.hpp; sourceTree = "<group>"; };
+		DC5BE24F1CBAFD3000386A43 /* VideoMode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VideoMode.hpp; sourceTree = "<group>"; };
+		DC5BE2501CBAFD3000386A43 /* Window.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Window.hpp; sourceTree = "<group>"; };
+		DC5BE2511CBAFD3000386A43 /* WindowHandle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WindowHandle.hpp; sourceTree = "<group>"; };
+		DC5BE2521CBAFD3000386A43 /* WindowStyle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WindowStyle.hpp; sourceTree = "<group>"; };
+		DC5BE2531CBAFD3000386A43 /* Window.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Window.hpp; sourceTree = "<group>"; };
+		DC5BE2551CBAFD3000386A43 /* libsfml-audio.2.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-audio.2.3.2.dylib"; sourceTree = "<group>"; };
+		DC5BE2561CBAFD3000386A43 /* libsfml-audio.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-audio.2.3.dylib"; sourceTree = "<group>"; };
+		DC5BE2571CBAFD3000386A43 /* libsfml-audio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-audio.dylib"; sourceTree = "<group>"; };
+		DC5BE2581CBAFD3000386A43 /* libsfml-graphics.2.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-graphics.2.3.2.dylib"; sourceTree = "<group>"; };
+		DC5BE2591CBAFD3000386A43 /* libsfml-graphics.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-graphics.2.3.dylib"; sourceTree = "<group>"; };
+		DC5BE25A1CBAFD3000386A43 /* libsfml-graphics.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-graphics.dylib"; sourceTree = "<group>"; };
+		DC5BE25B1CBAFD3000386A43 /* libsfml-network.2.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-network.2.3.2.dylib"; sourceTree = "<group>"; };
+		DC5BE25C1CBAFD3000386A43 /* libsfml-network.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-network.2.3.dylib"; sourceTree = "<group>"; };
+		DC5BE25D1CBAFD3000386A43 /* libsfml-network.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-network.dylib"; sourceTree = "<group>"; };
+		DC5BE25E1CBAFD3000386A43 /* libsfml-system.2.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-system.2.3.2.dylib"; sourceTree = "<group>"; };
+		DC5BE25F1CBAFD3000386A43 /* libsfml-system.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-system.2.3.dylib"; sourceTree = "<group>"; };
+		DC5BE2601CBAFD3000386A43 /* libsfml-system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-system.dylib"; sourceTree = "<group>"; };
+		DC5BE2611CBAFD3000386A43 /* libsfml-window.2.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-window.2.3.2.dylib"; sourceTree = "<group>"; };
+		DC5BE2621CBAFD3000386A43 /* libsfml-window.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-window.2.3.dylib"; sourceTree = "<group>"; };
+		DC5BE2631CBAFD3000386A43 /* libsfml-window.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-window.dylib"; sourceTree = "<group>"; };
+		DC5BE2641CBAFD3000386A43 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		DC5BE2651CBAFD3000386A43 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		DC5BE28C1CBB199800386A43 /* FLAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FLAC.framework; sourceTree = "<group>"; };
+		DC5BE28D1CBB199800386A43 /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = freetype.framework; sourceTree = "<group>"; };
+		DC5BE28E1CBB199800386A43 /* ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ogg.framework; sourceTree = "<group>"; };
+		DC5BE28F1CBB199800386A43 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenAL.framework; sourceTree = "<group>"; };
+		DC5BE2901CBB199800386A43 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-audio.framework"; sourceTree = "<group>"; };
+		DC5BE2911CBB199800386A43 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-graphics.framework"; sourceTree = "<group>"; };
+		DC5BE2921CBB199800386A43 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-network.framework"; sourceTree = "<group>"; };
+		DC5BE2931CBB199800386A43 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-system.framework"; sourceTree = "<group>"; };
+		DC5BE2941CBB199800386A43 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-window.framework"; sourceTree = "<group>"; };
+		DC5BE2951CBB199800386A43 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SFML.framework; sourceTree = "<group>"; };
+		DC5BE2961CBB199800386A43 /* vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vorbis.framework; sourceTree = "<group>"; };
+		DC5BE2971CBB199800386A43 /* vorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vorbisenc.framework; sourceTree = "<group>"; };
+		DC5BE2981CBB199800386A43 /* vorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vorbisfile.framework; sourceTree = "<group>"; };
+		DCDD50E91CD196EE00619F91 /* Carnivores.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Carnivores.cpp; path = "Project 3/Carnivores.cpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50EA1CD196EE00619F91 /* Carnivores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Carnivores.h; path = "Project 3/Carnivores.h"; sourceTree = SOURCE_ROOT; };
+		DCDD50EB1CD196EE00619F91 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Globals.h; path = "Project 3/Globals.h"; sourceTree = SOURCE_ROOT; };
+		DCDD50EC1CD196EE00619F91 /* Grass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Grass.cpp; path = "Project 3/Grass.cpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50ED1CD196EE00619F91 /* Grass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grass.h; path = "Project 3/Grass.h"; sourceTree = SOURCE_ROOT; };
+		DCDD50EE1CD196EE00619F91 /* Herbivores.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Herbivores.cpp; path = "Project 3/Herbivores.cpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50EF1CD196EE00619F91 /* Herbivores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Herbivores.h; path = "Project 3/Herbivores.h"; sourceTree = SOURCE_ROOT; };
+		DCDD50F01CD196EE00619F91 /* Land.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Land.cpp; path = "Project 3/Land.cpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50F11CD196EE00619F91 /* Land.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Land.hpp; path = "Project 3/Land.hpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50F21CD196EE00619F91 /* Living.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Living.cpp; path = "Project 3/Living.cpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50F31CD196EE00619F91 /* Living.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Living.h; path = "Project 3/Living.h"; sourceTree = SOURCE_ROOT; };
+		DCDD50F41CD196EE00619F91 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Project 3/main.cpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50F51CD196EE00619F91 /* Plants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Plants.cpp; path = "Project 3/Plants.cpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50F61CD196EE00619F91 /* Plants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plants.h; path = "Project 3/Plants.h"; sourceTree = SOURCE_ROOT; };
+		DCDD50F71CD196EE00619F91 /* Rabbit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rabbit.cpp; path = "Project 3/Rabbit.cpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50F81CD196EE00619F91 /* Rabbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rabbit.h; path = "Project 3/Rabbit.h"; sourceTree = SOURCE_ROOT; };
+		DCDD50F91CD196EE00619F91 /* SquareYard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SquareYard.cpp; path = "Project 3/SquareYard.cpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50FA1CD196EE00619F91 /* SquareYard.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SquareYard.hpp; path = "Project 3/SquareYard.hpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50FB1CD196EE00619F91 /* Wolf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Wolf.cpp; path = "Project 3/Wolf.cpp"; sourceTree = SOURCE_ROOT; };
+		DCDD50FC1CD196EE00619F91 /* Wolf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wolf.h; path = "Project 3/Wolf.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5BE1C31CBAFC0900386A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5BE27E1CBAFD3000386A43 /* libsfml-system.dylib in Frameworks */,
+				DC5BE2701CBAFD3000386A43 /* sfml-system.framework in Frameworks */,
+				DC5BE2671CBAFD3000386A43 /* freetype.framework in Frameworks */,
+				DC5BE2731CBAFD3000386A43 /* libsfml-audio.2.3.2.dylib in Frameworks */,
+				DC5BE2A51CBB199800386A43 /* vorbisfile.framework in Frameworks */,
+				DC5BE2741CBAFD3000386A43 /* libsfml-audio.2.3.dylib in Frameworks */,
+				DC5BE26D1CBAFD3000386A43 /* sfml-audio.framework in Frameworks */,
+				DC5BE29A1CBB199800386A43 /* freetype.framework in Frameworks */,
+				DC5BE2A31CBB199800386A43 /* vorbis.framework in Frameworks */,
+				DC5BE26E1CBAFD3000386A43 /* sfml-graphics.framework in Frameworks */,
+				DC5BE26F1CBAFD3000386A43 /* sfml-network.framework in Frameworks */,
+				DC5BE2A41CBB199800386A43 /* vorbisenc.framework in Frameworks */,
+				DC5BE2A01CBB199800386A43 /* sfml-system.framework in Frameworks */,
+				DC5BE2661CBAFD3000386A43 /* FLAC.framework in Frameworks */,
+				DC5BE26C1CBAFD3000386A43 /* vorbisfile.framework in Frameworks */,
+				DC5BE29C1CBB199800386A43 /* OpenAL.framework in Frameworks */,
+				DC5BE2801CBAFD3000386A43 /* libsfml-window.2.3.dylib in Frameworks */,
+				DC5BE29F1CBB199800386A43 /* sfml-network.framework in Frameworks */,
+				DC5BE26B1CBAFD3000386A43 /* vorbisenc.framework in Frameworks */,
+				DC5BE2811CBAFD3000386A43 /* libsfml-window.dylib in Frameworks */,
+				DC5BE2A11CBB199800386A43 /* sfml-window.framework in Frameworks */,
+				DC5BE29B1CBB199800386A43 /* ogg.framework in Frameworks */,
+				DC5BE27A1CBAFD3000386A43 /* libsfml-network.2.3.dylib in Frameworks */,
+				DC5BE2711CBAFD3000386A43 /* sfml-window.framework in Frameworks */,
+				DC5BE2781CBAFD3000386A43 /* libsfml-graphics.dylib in Frameworks */,
+				DC5BE2761CBAFD3000386A43 /* libsfml-graphics.2.3.2.dylib in Frameworks */,
+				DC5BE27D1CBAFD3000386A43 /* libsfml-system.2.3.dylib in Frameworks */,
+				DC5BE2991CBB199800386A43 /* FLAC.framework in Frameworks */,
+				DC5BE26A1CBAFD3000386A43 /* vorbis.framework in Frameworks */,
+				DC5BE2A21CBB199800386A43 /* SFML.framework in Frameworks */,
+				DC5BE2681CBAFD3000386A43 /* ogg.framework in Frameworks */,
+				DC5BE2771CBAFD3000386A43 /* libsfml-graphics.2.3.dylib in Frameworks */,
+				DC5BE2751CBAFD3000386A43 /* libsfml-audio.dylib in Frameworks */,
+				DC5BE27C1CBAFD3000386A43 /* libsfml-system.2.3.2.dylib in Frameworks */,
+				DC5BE2721CBAFD3000386A43 /* SFML.framework in Frameworks */,
+				DC5BE2791CBAFD3000386A43 /* libsfml-network.2.3.2.dylib in Frameworks */,
+				DC5BE29E1CBB199800386A43 /* sfml-graphics.framework in Frameworks */,
+				DC5BE27F1CBAFD3000386A43 /* libsfml-window.2.3.2.dylib in Frameworks */,
+				DC5BE29D1CBB199800386A43 /* sfml-audio.framework in Frameworks */,
+				DC5BE2691CBAFD3000386A43 /* OpenAL.framework in Frameworks */,
+				DC5BE27B1CBAFD3000386A43 /* libsfml-network.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5BE1BD1CBAFC0900386A43 = {
+			isa = PBXGroup;
+			children = (
+				DC5BE1D81CBAFD3000386A43 /* SFML-2.3.2-osx-clang-universal */,
+				DC5BE1C81CBAFC0900386A43 /* proj3_oole */,
+				DC5BE1C71CBAFC0900386A43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5BE1C71CBAFC0900386A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE1C61CBAFC0900386A43 /* proj3_oole */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC5BE1C81CBAFC0900386A43 /* proj3_oole */ = {
+			isa = PBXGroup;
+			children = (
+				DCDD50E91CD196EE00619F91 /* Carnivores.cpp */,
+				DCDD50EA1CD196EE00619F91 /* Carnivores.h */,
+				DCDD50EB1CD196EE00619F91 /* Globals.h */,
+				DCDD50EC1CD196EE00619F91 /* Grass.cpp */,
+				DCDD50ED1CD196EE00619F91 /* Grass.h */,
+				DCDD50EE1CD196EE00619F91 /* Herbivores.cpp */,
+				DCDD50EF1CD196EE00619F91 /* Herbivores.h */,
+				DCDD50F01CD196EE00619F91 /* Land.cpp */,
+				DCDD50F11CD196EE00619F91 /* Land.hpp */,
+				DCDD50F21CD196EE00619F91 /* Living.cpp */,
+				DCDD50F31CD196EE00619F91 /* Living.h */,
+				DCDD50F41CD196EE00619F91 /* main.cpp */,
+				DCDD50F51CD196EE00619F91 /* Plants.cpp */,
+				DCDD50F61CD196EE00619F91 /* Plants.h */,
+				DCDD50F71CD196EE00619F91 /* Rabbit.cpp */,
+				DCDD50F81CD196EE00619F91 /* Rabbit.h */,
+				DCDD50F91CD196EE00619F91 /* SquareYard.cpp */,
+				DCDD50FA1CD196EE00619F91 /* SquareYard.hpp */,
+				DCDD50FB1CD196EE00619F91 /* Wolf.cpp */,
+				DCDD50FC1CD196EE00619F91 /* Wolf.h */,
+			);
+			path = proj3_oole;
+			sourceTree = "<group>";
+		};
+		DC5BE1D81CBAFD3000386A43 /* SFML-2.3.2-osx-clang-universal */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE1D91CBAFD3000386A43 /* changelog.txt */,
+				DC5BE1DA1CBAFD3000386A43 /* extlibs */,
+				DC5BE1E21CBAFD3000386A43 /* Frameworks */,
+				DC5BE1E91CBAFD3000386A43 /* include */,
+				DC5BE2541CBAFD3000386A43 /* lib */,
+				DC5BE2641CBAFD3000386A43 /* license.txt */,
+				DC5BE2651CBAFD3000386A43 /* readme.txt */,
+			);
+			path = "SFML-2.3.2-osx-clang-universal";
+			sourceTree = "<group>";
+		};
+		DC5BE1DA1CBAFD3000386A43 /* extlibs */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE1DB1CBAFD3000386A43 /* FLAC.framework */,
+				DC5BE1DC1CBAFD3000386A43 /* freetype.framework */,
+				DC5BE1DD1CBAFD3000386A43 /* ogg.framework */,
+				DC5BE1DE1CBAFD3000386A43 /* OpenAL.framework */,
+				DC5BE1DF1CBAFD3000386A43 /* vorbis.framework */,
+				DC5BE1E01CBAFD3000386A43 /* vorbisenc.framework */,
+				DC5BE1E11CBAFD3000386A43 /* vorbisfile.framework */,
+			);
+			path = extlibs;
+			sourceTree = "<group>";
+		};
+		DC5BE1E21CBAFD3000386A43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE28C1CBB199800386A43 /* FLAC.framework */,
+				DC5BE28D1CBB199800386A43 /* freetype.framework */,
+				DC5BE28E1CBB199800386A43 /* ogg.framework */,
+				DC5BE28F1CBB199800386A43 /* OpenAL.framework */,
+				DC5BE2901CBB199800386A43 /* sfml-audio.framework */,
+				DC5BE2911CBB199800386A43 /* sfml-graphics.framework */,
+				DC5BE2921CBB199800386A43 /* sfml-network.framework */,
+				DC5BE2931CBB199800386A43 /* sfml-system.framework */,
+				DC5BE2941CBB199800386A43 /* sfml-window.framework */,
+				DC5BE2951CBB199800386A43 /* SFML.framework */,
+				DC5BE2961CBB199800386A43 /* vorbis.framework */,
+				DC5BE2971CBB199800386A43 /* vorbisenc.framework */,
+				DC5BE2981CBB199800386A43 /* vorbisfile.framework */,
+				DC5BE1E31CBAFD3000386A43 /* sfml-audio.framework */,
+				DC5BE1E41CBAFD3000386A43 /* sfml-graphics.framework */,
+				DC5BE1E51CBAFD3000386A43 /* sfml-network.framework */,
+				DC5BE1E61CBAFD3000386A43 /* sfml-system.framework */,
+				DC5BE1E71CBAFD3000386A43 /* sfml-window.framework */,
+				DC5BE1E81CBAFD3000386A43 /* SFML.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC5BE1E91CBAFD3000386A43 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE1EA1CBAFD3000386A43 /* SFML */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DC5BE1EA1CBAFD3000386A43 /* SFML */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE1EB1CBAFD3000386A43 /* Audio */,
+				DC5BE1FC1CBAFD3000386A43 /* Audio.hpp */,
+				DC5BE1FD1CBAFD3000386A43 /* Config.hpp */,
+				DC5BE1FE1CBAFD3000386A43 /* Graphics */,
+				DC5BE21A1CBAFD3000386A43 /* Graphics.hpp */,
+				DC5BE21B1CBAFD3000386A43 /* Main.hpp */,
+				DC5BE21C1CBAFD3000386A43 /* Network */,
+				DC5BE2281CBAFD3000386A43 /* Network.hpp */,
+				DC5BE2291CBAFD3000386A43 /* OpenGL.hpp */,
+				DC5BE22A1CBAFD3000386A43 /* System */,
+				DC5BE2431CBAFD3000386A43 /* System.hpp */,
+				DC5BE2441CBAFD3000386A43 /* Window */,
+				DC5BE2531CBAFD3000386A43 /* Window.hpp */,
+			);
+			path = SFML;
+			sourceTree = "<group>";
+		};
+		DC5BE1EB1CBAFD3000386A43 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE1EC1CBAFD3000386A43 /* AlResource.hpp */,
+				DC5BE1ED1CBAFD3000386A43 /* Export.hpp */,
+				DC5BE1EE1CBAFD3000386A43 /* InputSoundFile.hpp */,
+				DC5BE1EF1CBAFD3000386A43 /* Listener.hpp */,
+				DC5BE1F01CBAFD3000386A43 /* Music.hpp */,
+				DC5BE1F11CBAFD3000386A43 /* OutputSoundFile.hpp */,
+				DC5BE1F21CBAFD3000386A43 /* Sound.hpp */,
+				DC5BE1F31CBAFD3000386A43 /* SoundBuffer.hpp */,
+				DC5BE1F41CBAFD3000386A43 /* SoundBufferRecorder.hpp */,
+				DC5BE1F51CBAFD3000386A43 /* SoundFileFactory.hpp */,
+				DC5BE1F61CBAFD3000386A43 /* SoundFileFactory.inl */,
+				DC5BE1F71CBAFD3000386A43 /* SoundFileReader.hpp */,
+				DC5BE1F81CBAFD3000386A43 /* SoundFileWriter.hpp */,
+				DC5BE1F91CBAFD3000386A43 /* SoundRecorder.hpp */,
+				DC5BE1FA1CBAFD3000386A43 /* SoundSource.hpp */,
+				DC5BE1FB1CBAFD3000386A43 /* SoundStream.hpp */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		DC5BE1FE1CBAFD3000386A43 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE1FF1CBAFD3000386A43 /* BlendMode.hpp */,
+				DC5BE2001CBAFD3000386A43 /* CircleShape.hpp */,
+				DC5BE2011CBAFD3000386A43 /* Color.hpp */,
+				DC5BE2021CBAFD3000386A43 /* ConvexShape.hpp */,
+				DC5BE2031CBAFD3000386A43 /* Drawable.hpp */,
+				DC5BE2041CBAFD3000386A43 /* Export.hpp */,
+				DC5BE2051CBAFD3000386A43 /* Font.hpp */,
+				DC5BE2061CBAFD3000386A43 /* Glyph.hpp */,
+				DC5BE2071CBAFD3000386A43 /* Image.hpp */,
+				DC5BE2081CBAFD3000386A43 /* PrimitiveType.hpp */,
+				DC5BE2091CBAFD3000386A43 /* Rect.hpp */,
+				DC5BE20A1CBAFD3000386A43 /* Rect.inl */,
+				DC5BE20B1CBAFD3000386A43 /* RectangleShape.hpp */,
+				DC5BE20C1CBAFD3000386A43 /* RenderStates.hpp */,
+				DC5BE20D1CBAFD3000386A43 /* RenderTarget.hpp */,
+				DC5BE20E1CBAFD3000386A43 /* RenderTexture.hpp */,
+				DC5BE20F1CBAFD3000386A43 /* RenderWindow.hpp */,
+				DC5BE2101CBAFD3000386A43 /* Shader.hpp */,
+				DC5BE2111CBAFD3000386A43 /* Shape.hpp */,
+				DC5BE2121CBAFD3000386A43 /* Sprite.hpp */,
+				DC5BE2131CBAFD3000386A43 /* Text.hpp */,
+				DC5BE2141CBAFD3000386A43 /* Texture.hpp */,
+				DC5BE2151CBAFD3000386A43 /* Transform.hpp */,
+				DC5BE2161CBAFD3000386A43 /* Transformable.hpp */,
+				DC5BE2171CBAFD3000386A43 /* Vertex.hpp */,
+				DC5BE2181CBAFD3000386A43 /* VertexArray.hpp */,
+				DC5BE2191CBAFD3000386A43 /* View.hpp */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		DC5BE21C1CBAFD3000386A43 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE21D1CBAFD3000386A43 /* Export.hpp */,
+				DC5BE21E1CBAFD3000386A43 /* Ftp.hpp */,
+				DC5BE21F1CBAFD3000386A43 /* Http.hpp */,
+				DC5BE2201CBAFD3000386A43 /* IpAddress.hpp */,
+				DC5BE2211CBAFD3000386A43 /* Packet.hpp */,
+				DC5BE2221CBAFD3000386A43 /* Socket.hpp */,
+				DC5BE2231CBAFD3000386A43 /* SocketHandle.hpp */,
+				DC5BE2241CBAFD3000386A43 /* SocketSelector.hpp */,
+				DC5BE2251CBAFD3000386A43 /* TcpListener.hpp */,
+				DC5BE2261CBAFD3000386A43 /* TcpSocket.hpp */,
+				DC5BE2271CBAFD3000386A43 /* UdpSocket.hpp */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DC5BE22A1CBAFD3000386A43 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE22B1CBAFD3000386A43 /* Clock.hpp */,
+				DC5BE22C1CBAFD3000386A43 /* Err.hpp */,
+				DC5BE22D1CBAFD3000386A43 /* Export.hpp */,
+				DC5BE22E1CBAFD3000386A43 /* FileInputStream.hpp */,
+				DC5BE22F1CBAFD3000386A43 /* InputStream.hpp */,
+				DC5BE2301CBAFD3000386A43 /* Lock.hpp */,
+				DC5BE2311CBAFD3000386A43 /* MemoryInputStream.hpp */,
+				DC5BE2321CBAFD3000386A43 /* Mutex.hpp */,
+				DC5BE2331CBAFD3000386A43 /* NonCopyable.hpp */,
+				DC5BE2341CBAFD3000386A43 /* Sleep.hpp */,
+				DC5BE2351CBAFD3000386A43 /* String.hpp */,
+				DC5BE2361CBAFD3000386A43 /* String.inl */,
+				DC5BE2371CBAFD3000386A43 /* Thread.hpp */,
+				DC5BE2381CBAFD3000386A43 /* Thread.inl */,
+				DC5BE2391CBAFD3000386A43 /* ThreadLocal.hpp */,
+				DC5BE23A1CBAFD3000386A43 /* ThreadLocalPtr.hpp */,
+				DC5BE23B1CBAFD3000386A43 /* ThreadLocalPtr.inl */,
+				DC5BE23C1CBAFD3000386A43 /* Time.hpp */,
+				DC5BE23D1CBAFD3000386A43 /* Utf.hpp */,
+				DC5BE23E1CBAFD3000386A43 /* Utf.inl */,
+				DC5BE23F1CBAFD3000386A43 /* Vector2.hpp */,
+				DC5BE2401CBAFD3000386A43 /* Vector2.inl */,
+				DC5BE2411CBAFD3000386A43 /* Vector3.hpp */,
+				DC5BE2421CBAFD3000386A43 /* Vector3.inl */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		DC5BE2441CBAFD3000386A43 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE2451CBAFD3000386A43 /* Context.hpp */,
+				DC5BE2461CBAFD3000386A43 /* ContextSettings.hpp */,
+				DC5BE2471CBAFD3000386A43 /* Event.hpp */,
+				DC5BE2481CBAFD3000386A43 /* Export.hpp */,
+				DC5BE2491CBAFD3000386A43 /* GlResource.hpp */,
+				DC5BE24A1CBAFD3000386A43 /* Joystick.hpp */,
+				DC5BE24B1CBAFD3000386A43 /* Keyboard.hpp */,
+				DC5BE24C1CBAFD3000386A43 /* Mouse.hpp */,
+				DC5BE24D1CBAFD3000386A43 /* Sensor.hpp */,
+				DC5BE24E1CBAFD3000386A43 /* Touch.hpp */,
+				DC5BE24F1CBAFD3000386A43 /* VideoMode.hpp */,
+				DC5BE2501CBAFD3000386A43 /* Window.hpp */,
+				DC5BE2511CBAFD3000386A43 /* WindowHandle.hpp */,
+				DC5BE2521CBAFD3000386A43 /* WindowStyle.hpp */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		DC5BE2541CBAFD3000386A43 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE2551CBAFD3000386A43 /* libsfml-audio.2.3.2.dylib */,
+				DC5BE2561CBAFD3000386A43 /* libsfml-audio.2.3.dylib */,
+				DC5BE2571CBAFD3000386A43 /* libsfml-audio.dylib */,
+				DC5BE2581CBAFD3000386A43 /* libsfml-graphics.2.3.2.dylib */,
+				DC5BE2591CBAFD3000386A43 /* libsfml-graphics.2.3.dylib */,
+				DC5BE25A1CBAFD3000386A43 /* libsfml-graphics.dylib */,
+				DC5BE25B1CBAFD3000386A43 /* libsfml-network.2.3.2.dylib */,
+				DC5BE25C1CBAFD3000386A43 /* libsfml-network.2.3.dylib */,
+				DC5BE25D1CBAFD3000386A43 /* libsfml-network.dylib */,
+				DC5BE25E1CBAFD3000386A43 /* libsfml-system.2.3.2.dylib */,
+				DC5BE25F1CBAFD3000386A43 /* libsfml-system.2.3.dylib */,
+				DC5BE2601CBAFD3000386A43 /* libsfml-system.dylib */,
+				DC5BE2611CBAFD3000386A43 /* libsfml-window.2.3.2.dylib */,
+				DC5BE2621CBAFD3000386A43 /* libsfml-window.2.3.dylib */,
+				DC5BE2631CBAFD3000386A43 /* libsfml-window.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5BE1C51CBAFC0900386A43 /* proj3_oole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5BE1CD1CBAFC0900386A43 /* Build configuration list for PBXNativeTarget "proj3_oole" */;
+			buildPhases = (
+				DC5BE1C21CBAFC0900386A43 /* Sources */,
+				DC5BE1C31CBAFC0900386A43 /* Frameworks */,
+				DC5BE1C41CBAFC0900386A43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = proj3_oole;
+			productName = proj3_oole;
+			productReference = DC5BE1C61CBAFC0900386A43 /* proj3_oole */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5BE1BE1CBAFC0900386A43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sai Sravith";
+				TargetAttributes = {
+					DC5BE1C51CBAFC0900386A43 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DC5BE1C11CBAFC0900386A43 /* Build configuration list for PBXProject "proj3_oole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC5BE1BD1CBAFC0900386A43;
+			productRefGroup = DC5BE1C71CBAFC0900386A43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5BE1C51CBAFC0900386A43 /* proj3_oole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5BE1C21CBAFC0900386A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDD51031CD196EE00619F91 /* Plants.cpp in Sources */,
+				DCDD51001CD196EE00619F91 /* Land.cpp in Sources */,
+				DCDD50FE1CD196EE00619F91 /* Grass.cpp in Sources */,
+				DCDD51021CD196EE00619F91 /* main.cpp in Sources */,
+				DCDD50FF1CD196EE00619F91 /* Herbivores.cpp in Sources */,
+				DCDD51011CD196EE00619F91 /* Living.cpp in Sources */,
+				DCDD50FD1CD196EE00619F91 /* Carnivores.cpp in Sources */,
+				DCDD51051CD196EE00619F91 /* SquareYard.cpp in Sources */,
+				DCDD51041CD196EE00619F91 /* Rabbit.cpp in Sources */,
+				DCDD51061CD196EE00619F91 /* Wolf.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC5BE1CB1CBAFC0900386A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC5BE1CC1CBAFC0900386A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC5BE1CE1CBAFC0900386A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SFML-2.3.2-osx-clang-universal/extlibs",
+					"$(PROJECT_DIR)/SFML-2.3.2-osx-clang-universal/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SFML-2.3.2-osx-clang-universal/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC5BE1CF1CBAFC0900386A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SFML-2.3.2-osx-clang-universal/extlibs",
+					"$(PROJECT_DIR)/SFML-2.3.2-osx-clang-universal/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SFML-2.3.2-osx-clang-universal/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5BE1C11CBAFC0900386A43 /* Build configuration list for PBXProject "proj3_oole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5BE1CB1CBAFC0900386A43 /* Debug */,
+				DC5BE1CC1CBAFC0900386A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5BE1CD1CBAFC0900386A43 /* Build configuration list for PBXNativeTarget "proj3_oole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5BE1CE1CBAFC0900386A43 /* Debug */,
+				DC5BE1CF1CBAFC0900386A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5BE1BE1CBAFC0900386A43 /* Project object */;
+}
